@@ -94,7 +94,7 @@ document.getElementById('page-name').innerHTML=pagename;
 
 const logo=[
     {
-        'id':'img/silver-text.jpg'
+        'id':'silver-text.jpg'
     }
 ];
 var pageLogo ='';
@@ -120,15 +120,15 @@ document.getElementsByClassName('about')[0].innerHTML=_address;
 
 const social=[
     {
-        'follow' : 'img/facebook_733547.png',
+        'follow' : 'facebook_733547.png',
         'url':'https://www.facebook.com/profile.php?id=100039996099054&sk=about'
     },
     {
-        'follow' : 'img/instagram_1409946.png',
+        'follow' : 'instagram_1409946.png',
         'url':'https://www.facebook.com/profile.php?id=100039996099054&sk=about'
     },
     {
-        'follow' : 'img/youtube_3938037.png',
+        'follow' : 'youtube_3938037.png',
         'url':'https://www.facebook.com/profile.php?id=100039996099054&sk=about'
     },
 ];
