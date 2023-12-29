@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Koh+Santepheap&family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+.page-head{
+    height: 90px;
+    display: flex;
+    background-color: blueviolet;
+    top: 0;
+    z-index: 1;
+    position: sticky;
+}
+.page-logo{
+    width: 25%;
+    height: 100%;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.page-logo img{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    
+}
+.page-logo h2{
+    font-size: 18px;
+    padding: 10px;
+    font-family: 'Russo One', sans-serif;
+}
+.page-menu{
+    width: 44%;
+    height: 100%;
+}
+.page-menu ul li{
+    float: left;        
+    position: relative;
+    list-style: none;
+}
+.page-menu ul li a{
+    text-decoration: none;
+    display: block;
+    padding: 35px 15px;
+    color: white;
+}
+ul li:hover a{
+    background-color: rgba(235, 235, 235, 0.377);
+    width:100%;
+    height: 90px;
+}
+.page-login{
+    width: 31%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    /* background-color: aqua; */
+}
+.page-login button{
+    width: 80px;
+    height: 35px;
+    border-radius: 6px;
+    font-size: 17px;
+    border: none;
+}
+.login{
+    background-color: red;
+    ma: 10px;
+}
+.sign_up{
+    background-color: green;
+}
+.login:active ,.sign_up:active {
+    transform: scale(.97);
+}
+.login:hover {
+    background-color: rgba(98, 0, 255, 0.717);
+}
+.page-login input{
+    width: 200px;
+    height: 35px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    padding-left: 10px;
+}
+
+/* ...... */
+.container{
+    width: 90%;
+    /* background-color: blueviolet; */
+    display:flex;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.box{
+    width: 230px;
+    height: 360px;
+    margin-top: 30px;
+    background-color: white;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+			0 10px 10px rgba(0,0,0,0.22);
+    border-radius: 7px;
+    
+}
+.box-img{
+    width: 100%;
+    height: 65%;
+    /* border-radius: 7px; */
+    /* background-color: aqua; */
+}
+.box-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    padding-top: 10px;
+}
+.box-text{
+    width: 100%;
+    height: 35%;
+    /* background-color: aqua; */
+    padding: 10px 20px;
+    font-size: 10px;
+    font-family: sans-serif;   
+}
+.box-text h2{
+    font-family: sans-serif;
+    color: #000;
+    
+    font-size: 13px;
+}
+.box-text h3{
+    display: flex;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #000;
+}
+.more{
+    display: flex;
+    margin-top: 10px;
+}
+b{
+    color: orange;
+    font-size: 13px;
+}
+.box-text h6{
+    color: #000;
+    font-size: 10px;
+
+}
+/* footer */
+footer{
+    margin-top: 40px;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    background-color: #000;
+}
+.footer-logo{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-logo img{
+    width: 150px;
+    height: 80px;
+}
+.location{
+    width: 40%;
+    height: 100%;
+    padding: 35px;
+}
+.location  h1{
+    font-family: 'Russo One', sans-serif;
+    color: white;
+}
+.location a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.608);
+}
+.location a i{
+    padding: 10px;
+}
+.follow{
+    width: 30%;
+    height: 100%;
+    padding: 40px;
+}
+.follow h2{
+    margin: 7px;
+    color: white;
+    font-family: 'Russo One', sans-serif;
+}
+.follow a img{
+    width: 30px;
+    height: 30px;
+    margin: 7px;
+}
+.follow .label a{
+    text-decoration: none;
+}
